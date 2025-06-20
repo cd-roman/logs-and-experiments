@@ -1,4 +1,4 @@
-name: Website Uptime Monitor
+name: Portfolio Websites Monitor
 on:
   schedule:
     - cron: '0 8 * * 1-5'
