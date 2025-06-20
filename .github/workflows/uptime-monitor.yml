@@ -1,0 +1,37 @@
+name: Website Uptime Monitor
+on:
+  schedule:
+    - cron: '0 8 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  uptime-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Monitor websites
+        uses: cd-roman/uptime-monitor@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          sites: |
+            https://roman-y-portfolio.netlify.app/
+            https://front-end-components-demo.netlify.app/
+            https://carbon-emissions-dashboard.netlify.app/
+            https://react-organization-chart.netlify.app/
+            https://ecommerce-react-app-24.netlify.app/
+            https://evento-theta-mauve.vercel.app/
+            https://tech-jobs-react.netlify.app/
+            https://cd-roman.github.io/bowls-and-friends/
+            https://journey-pack.netlify.app/
+            https://mealpad-site.netlify.app/
+            https://cd-roman.github.io/simon-game/
+          timezone: "Europe/Paris"
+          log-file: "portfolio-websites-monitor.log"
+          timeout: "10"
