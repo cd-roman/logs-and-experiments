@@ -208,3 +208,16 @@
 [2025-07-11T10:09:45+02:00] https://journey-pack.netlify.app/ → Status: 200, Response: 0.727s
 [2025-07-11T10:09:45+02:00] https://mealpad-site.netlify.app/ → Status: 200, Response: 0.811s
 [2025-07-11T10:09:46+02:00] https://cd-roman.github.io/simon-game/ → Status: 200, Response: 0.052s
+
+---
+[2025-07-14T10:10:45+02:00] https://roman-y-portfolio.netlify.app/ → Status: 200, Response: 0.670s
+[2025-07-14T10:10:45+02:00] https://front-end-components-demo.netlify.app/ → Status: 200, Response: 0.628s
+[2025-07-14T10:10:45+02:00] https://carbon-emissions-dashboard.netlify.app/ → Status: 200, Response: 0.680s
+[2025-07-14T10:10:45+02:00] https://react-organization-chart.netlify.app/ → Status: 200, Response: 0.662s
+[2025-07-14T10:10:45+02:00] https://ecommerce-react-app-24.netlify.app/ → Status: 200, Response: 0.674s
+[2025-07-14T10:10:46+02:00] https://evento-theta-mauve.vercel.app/ → Status: 200, Response: 0.212s
+[2025-07-14T10:10:46+02:00] https://tech-jobs-react.netlify.app/ → Status: 200, Response: 0.608s
+[2025-07-14T10:10:46+02:00] https://cd-roman.github.io/bowls-and-friends/ → Status: 200, Response: 0.066s
+[2025-07-14T10:10:46+02:00] https://journey-pack.netlify.app/ → Status: 200, Response: 0.632s
+[2025-07-14T10:10:46+02:00] https://mealpad-site.netlify.app/ → Status: 200, Response: 0.681s
+[2025-07-14T10:10:47+02:00] https://cd-roman.github.io/simon-game/ → Status: 200, Response: 0.042s
